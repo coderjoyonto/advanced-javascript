@@ -10,7 +10,7 @@ for(let i = 0; i < students.length; i++){
     names.push(element);
 }
 
-const persons = students.map(s => s.name); 
+const persons = students.map(s => s.name);
 const id = students.map(s => s.id);
 const bigger = students.filter(s => s.name > 20);
 const biggerOne = students.find(s => s.id > 20);
